@@ -1,0 +1,871 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ignacio Doe",
+            "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Jane Bennett",
+            "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+          }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "createdBy": 1,
+            "title": "Grand Prix Bahrain",
+            "country": "🇧🇭 Bahrain",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Bahrain International Circuit",
+            "startTime": "2024-03-02T16:00",
+            "endTime": "2024-03-02T18:00"
+          },
+          {
+            "id": 2,
+            "createdBy": 2,
+            "title": "Grand Prix Saudi Arabia",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Jeddah Corniche Circuit",
+            "startTime": "2024-03-09T18:00",
+            "endTime": "2024-03-09T20:00"
+          },
+          {
+            "id": 3,
+            "createdBy": 2,
+            "title": "Australian Grand Prix",
+            "country": "🇦🇺 Australia",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Albert Park Street Circuit",
+            "startTime": "2024-03-24T05:00",
+            "endTime": "2024-03-24T07:00"
+          },
+          {
+            "id": 4,
+            "createdBy": 1,
+            "title": "Japanese Grand Prix",
+            "country": "🇯🇵 Japan",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Circuit Suzuka",
+            "startTime": "2024-04-07T07:00",
+            "endTime": "2024-04-07T09:00"
+          },
+          {
+            "id": 5,
+            "createdBy": 1,
+            "title": "Chinese Grand Prix",
+            "country": "🇨🇳 China",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Shanghai International Circuit",
+            "startTime": "2024-04-21T09:00",
+            "endTime": "2024-04-21T11:00"
+          },
+          {
+            "id": 6,
+            "createdBy": 2,
+            "title": "Grand Prix Miami",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Miami International Autodrome",
+            "startTime": "2024-05-05T22:00",
+            "endTime": "2024-05-06T00:00"
+          },
+          {
+            "id": 7,
+            "createdBy": 1,
+            "title": "Grand Prix Emilia-Romagna",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Autodromo Enzo e Dino Ferrari",
+            "startTime": "2024-05-19T15:00",
+            "endTime": "2024-05-19T17:00"
+          },
+          {
+            "id": 8,
+            "createdBy": 1,
+            "title": "Monaco Grand Prix",
+            "country": "🇲🇨 Monaco",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Circuit de Monaco",
+            "startTime": "2024-05-26T15:00",
+            "endTime": "2024-05-26T17:00"
+          },
+          {
+            "id": 9,
+            "createdBy": 1,
+            "title": "Canadian Grand Prix",
+            "country": "🇨🇦 Canada",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Circuit Gilles Villeneuve",
+            "startTime": "2024-06-09T20:00",
+            "endTime": "2024-06-09T22:00"
+          },
+          {
+            "id": 10,
+            "createdBy": 2,
+            "title": "Spanish Grand Prix",
+            "country": "🇪🇸 Spain",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Circuit de Barcelona-Catalunya",
+            "startTime": "2024-06-23T15:00",
+            "endTime": "2024-06-23T17:00"
+          },
+          {
+            "id": 11,
+            "createdBy": 2,
+            "title": "Austrian Grand Prix",
+            "country": "🇦🇹 Austria",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Red Bull Ring",
+            "startTime": "2024-06-30T15:00",
+            "endTime": "2024-06-30T17:00"
+          },
+          {
+            "id": 12,
+            "createdBy": 2,
+            "title": "Grand Prix Great Britain",
+            "country": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Silverstone Circuit",
+            "startTime": "2024-07-07T16:00",
+            "endTime": "2024-07-07T18:00"
+          },
+          {
+            "id": 13,
+            "createdBy": 1,
+            "title": "Hungarian Grand Prix",
+            "country": "🇭🇺 Hungary",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Hungaroring",
+            "startTime": "2024-07-21T15:00",
+            "endTime": "2024-07-21T17:00"
+          },
+          {
+            "id": 14,
+            "createdBy": 1,
+            "title": "Grand Prix Belgium",
+            "country": "🇧🇪 Belgium",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Circuit van Spa-Francorchamps",
+            "startTime": "2024-07-28T15:00",
+            "endTime": "2024-07-28T17:00"
+          },
+          {
+            "id": 15,
+            "createdBy": 1,
+            "title": "Dutch Grand Prix",
+            "country": "🇳🇱 Netherlands",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Circuit Zandvoort",
+            "startTime": "2024-08-25T15:00",
+            "endTime": "2024-08-25T17:00"
+          },
+          {
+            "id": 16,
+            "createdBy": 2,
+            "title": "Italian Grand Prix",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Autodromo Nazionale Monza",
+            "startTime": "2024-09-01T15:00",
+            "endTime": "2024-09-01T17:00"
+          },
+          {
+            "id": 17,
+            "createdBy": 2,
+            "title": "Grand Prix Azerbaijan",
+            "country": "🇦🇿 Azerbaijan",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Baku City Circuit",
+            "startTime": "2024-09-15T13:00",
+            "endTime": "2024-09-15T15:00"
+          },
+          {
+            "id": 18,
+            "createdBy": 1,
+            "title": "Grand Prix Singapore",
+            "country": "🇸🇬 Singapore",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Marina Bay Street Circuit",
+            "startTime": "2024-09-22T14:00",
+            "endTime": "2024-09-22T16:00"
+          },
+          {
+            "id": 19,
+            "createdBy": 2,
+            "title": "American Grand Prix",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Circuit of the Americas",
+            "startTime": "2024-10-20T21:00",
+            "endTime": "2024-10-20T23:00"
+          },
+          {
+            "id": 20,
+            "createdBy": 2,
+            "title": "Mexican Grand Prix",
+            "country": "🇲🇽 Mexico",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Autódromo Hermanos Rodríguez",
+            "startTime": "2024-10-27T21:00",
+            "endTime": "2024-10-27T23:00"
+          },
+          {
+            "id": 21,
+            "createdBy": 1,
+            "title": "Brazilian Grand Prix",
+            "country": "🇧🇷 Brazil",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Autódromo José Carlos Pace",
+            "startTime": "2024-11-03T18:00",
+            "endTime": "2024-11-03T20:00"
+          },
+          {
+            "id": 22,
+            "createdBy": 1,
+            "title": "Las Vegas Grand Prix",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/formulaOne01.jpg",
+            "championshipId": 1,
+            "location": "Las Vegas Street Circuit",
+            "startTime": "2024-11-24T07:00",
+            "endTime": "2024-11-24T09:00"
+          },
+          {
+            "id": 23,
+            "createdBy": 2,
+            "title": "Qatar Grand Prix",
+            "country": "🇶🇦 Qatar",
+            "image": "../src/assets/images/formulaOne02.jpg",
+            "championshipId": 1,
+            "location": "Losail International Circuit",
+            "startTime": "2024-12-01T18:00",
+            "endTime": "2024-12-01T20:00"
+          },
+          {
+            "id": 24,
+            "createdBy": 1,
+            "title": "Abu Dhabi Grand Prix",
+            "country": "🇦🇪 Abu Dhabi",
+            "image": "../src/assets/images/formulaOne03.jpg",
+            "championshipId": 1,
+            "location": "Yas Marina Circuit",
+            "startTime": "2024-12-08T14:00",
+            "endTime": "2024-12-08T16:00"
+          },
+          {
+            "id": 25,
+            "createdBy": 2,
+            "title": "Mexico City E-Prix",
+            "country": "🇲🇽 Mexico",
+            "image": "../src/assets/images/formulaE01.jpg",
+            "championshipId": 2,
+            "location": "Autódromo Hermanos Rodríguez",
+            "startTime": "2024-01-13T21:04",
+            "endTime": "2024-01-13T22:00"
+          },
+          {
+            "id": 26,
+            "createdBy": 2,
+            "title": "Diriyah E-Prix Round 1",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/formulaE02.jpg",
+            "championshipId": 2,
+            "location": "Diriyah Street Circuit",
+            "startTime": "2024-01-26T18:04",
+            "endTime": "2024-01-26T19:30"
+          },
+          {
+            "id": 27,
+            "createdBy": 1,
+            "title": "Diriyah E-Prix Round 2",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/formulaE03.jpg",
+            "championshipId": 2,
+            "location": "Diriyah Street Circuit",
+            "startTime": "2024-01-27T18:04",
+            "endTime": "2024-01-27T19:00"
+          },
+          {
+            "id": 28,
+            "createdBy": 1,
+            "title": "São Paulo E-Prix",
+            "country": "🇧🇷 Brazil",
+            "image": "../src/assets/images/formulaE04.jpg",
+            "championshipId": 2,
+            "location": "São Paulo Street Circuit",
+            "startTime": "2024-03-16T18:03",
+            "endTime": "2024-03-16T19:00"
+          },
+          {
+            "id": 29,
+            "createdBy": 1,
+            "title": "Tokyo E-Prix",
+            "country": "🇯🇵 Japan",
+            "image": "../src/assets/images/formulaE01.jpg",
+            "championshipId": 2,
+            "location": "Tokyo Street Circuit",
+            "startTime": "2024-03-30T07:03",
+            "endTime": "2024-03-30T08:00"
+          },
+          {
+            "id": 30,
+            "createdBy": 2,
+            "title": "Misano E-Prix Round 1",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/formulaE02.jpg",
+            "championshipId": 2,
+            "location": "Misano World Circuit Marco Simoncelli",
+            "startTime": "2024-04-13T15:03",
+            "endTime": "2024-04-13T16:00"
+          },
+          {
+            "id": 31,
+            "createdBy": 2,
+            "title": "Misano E-Prix Round 2",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/formulaE03.jpg",
+            "championshipId": 2,
+            "location": "Misano World Circuit Marco Simoncelli",
+            "startTime": "2024-04-14T15:03",
+            "endTime": "2024-04-14T16:00"
+          },
+          {
+            "id": 32,
+            "createdBy": 1,
+            "title": "Monaco E-Prix",
+            "country": "🇲🇨 Monaco",
+            "image": "../src/assets/images/formulaE04.jpg",
+            "championshipId": 2,
+            "location": "Circuit de Monaco",
+            "startTime": "2024-04-27T15:03",
+            "endTime": "2024-04-27T16:30"
+          },
+          {
+            "id": 33,
+            "createdBy": 2,
+            "title": "Berlin E-Prix Round 1",
+            "country": "🇩🇪 Germany",
+            "image": "../src/assets/images/formulaE01.jpg",
+            "championshipId": 2,
+            "location": "Flughafen Tempelhof",
+            "startTime": "2024-05-11T15:03",
+            "endTime": "2024-05-11T16:30"
+          },
+          {
+            "id": 34,
+            "createdBy": 2,
+            "title": "Berlin E-Prix Round 2",
+            "country": "🇩🇪 Germany",
+            "image": "../src/assets/images/formulaE02.jpg",
+            "championshipId": 2,
+            "location": "Flughafen Tempelhof",
+            "startTime": "2024-05-12T15:03",
+            "endTime": "2024-05-12T16:00"
+          },
+          {
+            "id": 35,
+            "createdBy": 1,
+            "title": "Shanghai E-Prix Round 1",
+            "country": "🇨🇳 China",
+            "image": "../src/assets/images/formulaE03.jpg",
+            "championshipId": 2,
+            "location": "Shanghai International Circuit",
+            "startTime": "2024-05-25T09:03",
+            "endTime": "2024-05-25T10:00"
+          },
+          {
+            "id": 36,
+            "createdBy": 1,
+            "title": "Shanghai E-Prix Round 2",
+            "country": "🇨🇳 China",
+            "image": "../src/assets/images/formulaE04.jpg",
+            "championshipId": 2,
+            "location": "Shanghai International Circuit",
+            "startTime": "2024-05-25T09:03",
+            "endTime": "2024-05-25T10:00"
+          },
+          {
+            "id": 37,
+            "createdBy": 2,
+            "title": "Portland E-Prix Round 1",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/formulaE01.jpg",
+            "championshipId": 2,
+            "location": "Portland International Raceway",
+            "startTime": "2024-06-29T23:03",
+            "endTime": "2024-06-30T00:30"
+          },
+          {
+            "id": 38,
+            "createdBy": 2,
+            "title": "Portland E-Prix Round 2",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/formulaE02.jpg",
+            "championshipId": 2,
+            "location": "Portland International Raceway",
+            "startTime": "2024-06-30T23:03",
+            "endTime": "2024-07-01T00:30"
+          },
+          {
+            "id": 39,
+            "createdBy": 1,
+            "title": "London E-Prix Round 1",
+            "country": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
+            "image": "../src/assets/images/formulaE03.jpg",
+            "championshipId": 2,
+            "location": "London Excel Circuit",
+            "startTime": "2024-07-20T18:03",
+            "endTime": "2024-07-20T19:30"
+          },
+          {
+            "id": 40,
+            "createdBy": 1,
+            "title": "London E-Prix Round 2",
+            "country": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
+            "image": "../src/assets/images/formulaE04.jpg",
+            "championshipId": 2,
+            "location": "London Excel Circuit",
+            "startTime": "2024-07-21T18:03",
+            "endTime": "2024-07-21T19:30"
+          },
+          {
+            "id": 41,
+            "createdBy": 1,
+            "title": "Qatar 1812Km",
+            "country": "🇶🇦 Qatar",
+            "image": "../src/assets/images/wec01.jpg",
+            "championshipId": 3,
+            "location": "Lusail International Circuit",
+            "startTime": "2024-03-02T12:00",
+            "endTime": "2024-03-02T18:00"
+          },
+          {
+            "id": 42,
+            "createdBy": 2,
+            "title": "6 Hours of Imola",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/wec02.jpg",
+            "championshipId": 3,
+            "location": "Autodromo Internazionale Enzo e Dino Ferrari",
+            "startTime": "2024-04-21T12:00",
+            "endTime": "2024-04-21T18:00"
+          },
+          {
+            "id": 43,
+            "createdBy": 1,
+            "title": "TotalEnergies 6 Hours of Spa-Francorchamps",
+            "country": "🇧🇪 Belgium",
+            "image": "../src/assets/images/spa02.jpg",
+            "championshipId": 3,
+            "location": "Circuit de Spa-Francorchamps",
+            "startTime": "2024-05-11T12:00",
+            "endTime": "2024-05-11T18:00"
+          },
+          {
+            "id": 44,
+            "createdBy": 2,
+            "title": "24 Hours of Le Mans",
+            "country": "🇫🇷 France",
+            "image": "../src/assets/images/leMans02.jpg",
+            "championshipId": 3,
+            "location": "Circuit de la Sarthe",
+            "startTime": "2024-06-15T15:00",
+            "endTime": "2024-06-16T15:00"
+          },
+          {
+            "id": 45,
+            "createdBy": 2,
+            "title": "6 Hours of São Paulo",
+            "country": "🇧🇷 Brazil",
+            "image": "../src/assets/images/wec01.jpg",
+            "championshipId": 3,
+            "location": "Autódromo José Carlos Pace",
+            "startTime": "2024-07-14T12:00",
+            "endTime": "2024-07-14T18:00"
+          },
+          {
+            "id": 46,
+            "createdBy": 1,
+            "title": "Lone Star Le Mans",
+            "country": "🇺🇸 United States of America",
+            "image": "../src/assets/images/wec02.jpg",
+            "championshipId": 3,
+            "location": "Circuit of the Americas",
+            "startTime": "2024-09-01T12:00",
+            "endTime": "2024-09-01T18:00"
+          },
+          {
+            "id": 47,
+            "createdBy": 2,
+            "title": "6 Hours of Japan",
+            "country": "🇯🇵 Japan",
+            "image": "../src/assets/images/wec01.jpg",
+            "championshipId": 3,
+            "location": "Circuit Suzuka",
+            "startTime": "2024-09-15T12:00",
+            "endTime": "2024-09-15T18:00"
+          },
+          {
+            "id": 48,
+            "createdBy": 1,
+            "title": "8 Hours of Bahrain",
+            "country": "🇧🇭 Bahrain",
+            "image": "../src/assets/images/wec02.jpg",
+            "championshipId": 3,
+            "location": "Bahrain International Circuit",
+            "startTime": "2024-11-02T12:00",
+            "endTime": "2024-11-02T20:00"
+          },
+          {
+            "id": 49,
+            "createdBy": 2,
+            "title": "Rallye Monte-Carlo",
+            "country": "🇲🇨 Monaco",
+            "image": "../src/assets/images/wrc04.jpg",
+            "championshipId": 4,
+            "location": "Monaco",
+            "startTime": "2024-01-28T12:00",
+            "endTime": "2024-01-28T20:00"
+          },
+          {
+            "id": 50,
+            "createdBy": 1,
+            "title": "Rally Sweden",
+            "country": "🇸🇪 Sweden",
+            "image": "../src/assets/images/wrc01.jpg",
+            "championshipId": 4,
+            "location": "Sweden",
+            "startTime": "2024-02-18T12:00",
+            "endTime": "2024-02-18T20:00"
+          },
+          {
+            "id": 51,
+            "createdBy": 2,
+            "title": "Safari Rally Kenya",
+            "country": "🇰🇪 Kenya",
+            "image": "../src/assets/images/wrc02.jpg",
+            "championshipId": 4,
+            "location": "Kenya",
+            "startTime": "2024-03-31T12:00",
+            "endTime": "2024-03-31T20:00"
+          },
+          {
+            "id": 52,
+            "createdBy": 2,
+            "title": "Croatia Rally",
+            "country": "🇭🇷 Croatia",
+            "image": "../src/assets/images/wrc03.jpg",
+            "championshipId": 4,
+            "location": "Croatia",
+            "startTime": "2024-04-21T12:00",
+            "endTime": "2024-04-21T20:00"
+          },
+          {
+            "id": 53,
+            "createdBy": 1,
+            "title": "Vodafone Rally de Portugal",
+            "country": "🇵🇹 Portugal",
+            "image": "../src/assets/images/wrc04.jpg",
+            "championshipId": 4,
+            "location": "Portugal",
+            "startTime": "2024-05-12T12:00",
+            "endTime": "2024-05-12T20:00"
+          },
+          {
+            "id": 54,
+            "createdBy": 1,
+            "title": "Rally Italia Sardegna",
+            "country": "🇮🇹 Italy",
+            "image": "../src/assets/images/wrc01.jpg",
+            "championshipId": 4,
+            "location": "Italy",
+            "startTime": "2024-06-02T12:00",
+            "endTime": "2024-06-02T20:00"
+          },
+          {
+            "id": 55,
+            "createdBy": 1,
+            "title": "ORLEN Rally Poland",
+            "country": "🇵🇱 Poland",
+            "image": "../src/assets/images/wrc02.jpg",
+            "championshipId": 4,
+            "location": "Poland",
+            "startTime": "2024-06-30T12:00",
+            "endTime": "2024-06-30T20:00"
+          },
+          {
+            "id": 56,
+            "createdBy": 2,
+            "title": "Tet Rally Latvia",
+            "country": "🇱🇻 Latvia",
+            "image": "../src/assets/images/wrc03.jpg",
+            "championshipId": 4,
+            "location": "Latvia",
+            "startTime": "2024-07-21T12:00",
+            "endTime": "2024-07-21T20:00"
+          },
+          {
+            "id": 57,
+            "createdBy": 1,
+            "title": "Secto Rally Finland",
+            "country": "🇫🇮 Finland",
+            "image": "../src/assets/images/wrc04.jpg",
+            "championshipId": 4,
+            "location": "Finland",
+            "startTime": "2024-08-04T12:00",
+            "endTime": "2024-08-04T20:00"
+          },
+          {
+            "id": 58,
+            "createdBy": 2,
+            "title": "Eko Acropolis Rally Greece",
+            "country": "🇬🇷 Greece",
+            "image": "../src/assets/images/wrc01.jpg",
+            "championshipId": 4,
+            "location": "Greece",
+            "startTime": "2024-08-04T12:00",
+            "endTime": "2024-08-04T20:00"
+          },
+          {
+            "id": 59,
+            "createdBy": 1,
+            "title": "Rally Chile BioBio",
+            "country": "🇨🇱 Chile",
+            "image": "../src/assets/images/wrc02.jpg",
+            "championshipId": 4,
+            "location": "Chile",
+            "startTime": "2024-09-29T12:00",
+            "endTime": "2024-09-29T20:00"
+          },
+          {
+            "id": 60,
+            "createdBy": 1,
+            "title": "Central European Rally",
+            "country": "🇦🇹 Austria, 🇨🇿 Czech Republic, 🇩🇪 Germany",
+            "image": "../src/assets/images/wrc03.jpg",
+            "championshipId": 4,
+            "location": "Austria, Czech Republic, Germany",
+            "startTime": "2024-11-03T12:00",
+            "endTime": "2024-11-03T20:00"
+          },
+          {
+            "id": 61,
+            "createdBy": 2,
+            "title": "FORUM8 Rally Japan",
+            "country": "🇯🇵 Japan",
+            "image": "../src/assets/images/wrc04.jpg",
+            "championshipId": 4,
+            "location": "Japan",
+            "startTime": "2024-11-24T12:00",
+            "endTime": "2024-11-24T20:00"
+          },
+          {
+            "id": 62,
+            "createdBy": 2,
+            "title": "Dakar: Prologue",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar01.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-05T12:00",
+            "endTime": "2024-01-05T20:00"
+          },
+          {
+            "id": 63,
+            "createdBy": 1,
+            "title": "Dakar: Stage 01",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar02.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-06T12:00",
+            "endTime": "2024-01-06T20:00"
+          },
+          {
+            "id": 64,
+            "createdBy": 2,
+            "title": "Dakar: Stage 02",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar03.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-07T12:00",
+            "endTime": "2024-01-07T20:00"
+          },
+          {
+            "id": 65,
+            "createdBy": 1,
+            "title": "Dakar: Stage 03",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar04.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-08T12:00",
+            "endTime": "2024-01-08T20:00"
+          },
+          {
+            "id": 66,
+            "createdBy": 1,
+            "title": "Dakar: Stage 04",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar01.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-09T12:00",
+            "endTime": "2024-01-09T20:00"
+          },
+          {
+            "id": 67,
+            "createdBy": 2,
+            "title": "Dakar: Stage 05",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar02.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-10T12:00",
+            "endTime": "2024-01-10T20:00"
+          },
+          {
+            "id": 68,
+            "createdBy": 1,
+            "title": "Dakar: Stage 06",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar03.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-11T12:00",
+            "endTime": "2024-01-11T20:00"
+          },
+          {
+            "id": 69,
+            "createdBy": 2,
+            "title": "Dakar: Stage 07",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar04.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-14T12:00",
+            "endTime": "2024-01-14T20:00"
+          },
+          {
+            "id": 70,
+            "createdBy": 2,
+            "title": "Dakar: Stage 08",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar01.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-15T12:00",
+            "endTime": "2024-01-15T20:00"
+          },
+          {
+            "id": 71,
+            "createdBy": 2,
+            "title": "Dakar: Stage 09",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar02.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-16T12:00",
+            "endTime": "2024-01-16T20:00"
+          },
+          {
+            "id": 72,
+            "createdBy": 1,
+            "title": "Dakar: Stage 10",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar03.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-17T12:00",
+            "endTime": "2024-01-17T20:00"
+          },
+          {
+            "id": 73,
+            "createdBy": 1,
+            "title": "Dakar: Stage 11",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar04.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-18T12:00",
+            "endTime": "2024-01-18T20:00"
+          },
+          {
+            "id": 74,
+            "createdBy": 2,
+            "title": "Dakar: Stage 12",
+            "country": "🇸🇦 Saudi Arabia",
+            "image": "../src/assets/images/dakar01.jpg",
+            "championshipId": 5,
+            "location": "Saudi Arabia",
+            "startTime": "2024-01-19T12:00",
+            "endTime": "2024-01-19T20:00"
+          }
+    ],
+    "championships": [
+        {
+            "name": "Formula 1",
+            "id": 1,
+            "categoryIds": [1, 2]
+        },
+        {
+            "name": "Formula E",
+            "id": 2,
+            "categoryIds": [1, 2]
+        },
+        {
+            "name": "World Endurance Championship",
+            "id": 3,
+            "categoryIds": [1, 2]
+        },
+        {
+            "name": "World Rally Championship",
+            "id": 4,
+            "categoryIds": [2, 3]
+        },
+        {
+            "name": "Dakar",
+            "id": 5,
+            "categoryIds": [3]
+        }
+    ],
+    "categories": [
+        {
+            "type": "Circuit racing",
+            "id": 1
+        },
+        {
+            "type": "Public road",
+            "id": 2
+        },
+        {
+            "type": "Dirt",
+            "id": 3
+        }
+    ]
+}
